@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{7708de9b-71b1-4775-b0dc-308768b568ac}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{a4656878-bcef-4010-8a3b-7912e8b04639}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{9ccc094a-10f2-4fee-ba7f-89881c1043e8}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="QMake Project files">
+      <UniqueIdentifier>{08401a1a-eeec-4c64-ae53-f19d3f6a51c0}</UniqueIdentifier>
+      <Extensions>pro</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{f6e4bb2f-a9ef-4797-afae-4017f8307e49}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LinuxProject1.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="newwindow.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="mmapGpio.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="mcp3008spi.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\QCustomPlotUpdated\qcustomplot-source\qcustomplot.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softPwm.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softTone.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\piHiPri.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MainWindow.ui">
+      <Filter>Source files</Filter>
+    </None>
+    <None Include="debug.pro">
+      <Filter>QMake Project files</Filter>
+    </None>
+    <None Include="LinuxProject1-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="release.pro">
+      <Filter>QMake Project files</Filter>
+    </None>
+    <None Include="LinuxProject1-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="LinuxProject1.pro" />
+    <None Include="ui_newwindow.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainWindow.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="newwindow.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="mmapGpio.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="mcp3008spi.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\QCustomPlotUpdated\qcustomplot-source\qcustomplot.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\wiringPi.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\version.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softPwm.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softTone.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
