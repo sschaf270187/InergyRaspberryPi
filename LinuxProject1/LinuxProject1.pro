@@ -12,8 +12,8 @@ TEMPLATE = app
 
 #By default the following file lists are updated automatically by VisualGDB.
 
-SOURCES   += ../../../../../Desktop/QCustomPlotUpdated/qcustomplot-source/qcustomplot.cpp ../../../../../Desktop/wiringPi-96344ff/wiringPi/piHiPri.c ../../../../../Desktop/wiringPi-96344ff/wiringPi/softPwm.c ../../../../../Desktop/wiringPi-96344ff/wiringPi/softTone.c ../../../../../Desktop/wiringPi.cpp LinuxProject1.cpp MainWindow.cpp mcp3008spi.cpp mmapGpio.cpp newwindow.cpp
-HEADERS   += ../../../../../Desktop/QCustomPlotUpdated/qcustomplot-source/qcustomplot.h ../../../../../Desktop/version.h ../../../../../Desktop/wiringPi-96344ff/wiringPi/softPwm.h ../../../../../Desktop/wiringPi-96344ff/wiringPi/softTone.h ../../../../../Desktop/wiringPi.h MainWindow.h mcp3008spi.h mmapGpio.h newwindow.h
+SOURCES   += ../../../../../Desktop/wiringPi.cpp LinuxProject1.cpp MainWindow.cpp mcp3008spi.cpp mmapGpio.cpp newwindow.cpp QCustomPlotUpdated/qcustomplot-source/qcustomplot.cpp wiringPi-96344ff/wiringPi/piHiPri.c wiringPi-96344ff/wiringPi/softPwm.c wiringPi-96344ff/wiringPi/softTone.c
+HEADERS   += ../../../../../Desktop/version.h ../../../../../Desktop/wiringPi.h MainWindow.h mcp3008spi.h mmapGpio.h newwindow.h QCustomPlotUpdated/qcustomplot-source/qcustomplot.h wiringPi-96344ff/wiringPi/softPwm.h wiringPi-96344ff/wiringPi/softTone.h
 FORMS     += MainWindow.ui ui_newwindow.ui
 RESOURCES += 
 

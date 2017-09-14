@@ -7,7 +7,7 @@ CONFIG += debug
 
 DEFINES += 
 LIBS += 
-INCLUDEPATH += ../../../../../Desktop/QCustomPlotUpdated/qcustomplot-source ../../SPITest/SPITest
+INCLUDEPATH += ../../../../../Desktop/QCustomPlotUpdated/qcustomplot-source ../../SPITest/SPITest QCustomPlotUpdated/qcustomplot-source
 QMAKE_LFLAGS += 
 QMAKE_CXXFLAGS += -ggdb 
 QMAKE_CFLAGS += -ggdb 

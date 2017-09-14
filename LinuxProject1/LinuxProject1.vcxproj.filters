@@ -38,19 +38,19 @@
     <ClCompile Include="mcp3008spi.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\QCustomPlotUpdated\qcustomplot-source\qcustomplot.cpp">
-      <Filter>Source files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\..\Desktop\wiringPi.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softPwm.c">
+    <ClCompile Include="QCustomPlotUpdated\qcustomplot-source\qcustomplot.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softTone.c">
+    <ClCompile Include="wiringPi-96344ff\wiringPi\piHiPri.c">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\piHiPri.c">
+    <ClCompile Include="wiringPi-96344ff\wiringPi\softPwm.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="wiringPi-96344ff\wiringPi\softTone.c">
       <Filter>Source files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -86,19 +86,19 @@
     <ClInclude Include="mcp3008spi.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\QCustomPlotUpdated\qcustomplot-source\qcustomplot.h">
-      <Filter>Header files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\wiringPi.h">
       <Filter>Header files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\Desktop\version.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softPwm.h">
+    <ClInclude Include="QCustomPlotUpdated\qcustomplot-source\qcustomplot.h">
       <Filter>Header files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softTone.h">
+    <ClInclude Include="wiringPi-96344ff\wiringPi\softPwm.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="wiringPi-96344ff\wiringPi\softTone.h">
       <Filter>Header files</Filter>
     </ClInclude>
   </ItemGroup>

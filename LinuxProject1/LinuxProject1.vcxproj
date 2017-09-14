@@ -37,7 +37,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <NMakeIncludeSearchPath>c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\share\qt4\mkspecs\arm-linux-gnueabihf;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\qt4\QtCore;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\qt4\QtGui;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\qt4;c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9;c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9\backward;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include-fixed;c:\sysgcc\raspberry\arm-linux-gnueabihf\include;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\arm-linux-gnueabihf;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include;Debug;../../../../../Desktop/QCustomPlotUpdated/qcustomplot-source;../../SPITest/SPITest;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\share\qt4\mkspecs\arm-linux-gnueabihf;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\qt4\QtCore;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\qt4\QtGui;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\qt4;c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9;c:\sysgcc\raspberry\arm-linux-gnueabihf\include\c++\4.9\backward;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include;c:\sysgcc\raspberry\lib\gcc\arm-linux-gnueabihf\4.9\include-fixed;c:\sysgcc\raspberry\arm-linux-gnueabihf\include;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include\arm-linux-gnueabihf;c:\sysgcc\raspberry\arm-linux-gnueabihf\sysroot\usr\include;Debug;../../../../../Desktop/QCustomPlotUpdated/qcustomplot-source;../../SPITest/SPITest;QCustomPlotUpdated/qcustomplot-source;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
     <NMakeForcedIncludes>$(ProjectDir)\gcc_Debug.h;$(VISUALGDB_DIR)\gcc_compat.h;$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeBuildCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /build "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeBuildCommandLine>
     <NMakeCleanCommandLine>"$(VISUALGDB_DIR)\VisualGDB.exe" /clean "$(ProjectPath)" "/solution:$(SolutionPath)" "/config:$(Configuration)" "/platform:$(Platform)"</NMakeCleanCommandLine>
@@ -63,16 +63,16 @@
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\QCustomPlotUpdated\qcustomplot-source\qcustomplot.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\piHiPri.c" />
-    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softPwm.c" />
-    <ClCompile Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softTone.c" />
     <ClCompile Include="..\..\..\..\..\Desktop\wiringPi.cpp" />
     <ClCompile Include="LinuxProject1.cpp" />
     <ClCompile Include="MainWindow.cpp" />
     <ClCompile Include="mcp3008spi.cpp" />
     <ClCompile Include="mmapGpio.cpp" />
     <ClCompile Include="newwindow.cpp" />
+    <ClCompile Include="QCustomPlotUpdated\qcustomplot-source\qcustomplot.cpp" />
+    <ClCompile Include="wiringPi-96344ff\wiringPi\piHiPri.c" />
+    <ClCompile Include="wiringPi-96344ff\wiringPi\softPwm.c" />
+    <ClCompile Include="wiringPi-96344ff\wiringPi\softTone.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="debug.pro" />
@@ -86,15 +86,15 @@
     <None Include="ui_newwindow.ui" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\QCustomPlotUpdated\qcustomplot-source\qcustomplot.h" />
     <ClInclude Include="..\..\..\..\..\Desktop\version.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softPwm.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\wiringPi-96344ff\wiringPi\softTone.h" />
     <ClInclude Include="..\..\..\..\..\Desktop\wiringPi.h" />
     <ClInclude Include="MainWindow.h" />
     <ClInclude Include="mcp3008spi.h" />
     <ClInclude Include="mmapGpio.h" />
     <ClInclude Include="newwindow.h" />
+    <ClInclude Include="QCustomPlotUpdated\qcustomplot-source\qcustomplot.h" />
+    <ClInclude Include="wiringPi-96344ff\wiringPi\softPwm.h" />
+    <ClInclude Include="wiringPi-96344ff\wiringPi\softTone.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
